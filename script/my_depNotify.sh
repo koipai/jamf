@@ -59,7 +59,7 @@
 # Paragraph text that will display under the main heading. For a new line, use \n
 # If this variable is left blank, the generic message will appear. Leave single
 # quotes below as double quotes will break the new lines.
-  MAIN_TEXT='Thanks for choosing a Mac at Organization! We want you to have a few applications and settings configured before you get started with your new Mac. This process should take 10 to 20 minutes to complete. \n \n If you need additional software or help, please visit the Self Service app in your Applications folder or on your Dock.'
+  MAIN_TEXT='Thanks for choosing a Mac at SmartHR! We want you to have a few applications and settings configured before you get started with your new Mac. This process should take 10 to 20 minutes to complete. \n \n If you need additional software or help, please visit the Self Service app in your Applications folder or on your Dock.'
 
 # Initial Start Status text that shows as things are firing up
   INITAL_START_STATUS="Initial Configuration Starting..."
@@ -151,9 +151,10 @@ TRIGGER="event"
     "Installing Printer,install_printer"
     "Installing Google Chrome,install_chrome"
     "Installing Google DriveFileStream,install_drivefilestream"
+    "Installing Google IME,install_googleime"
     "Installing Zoom,install_zoom"
     "Installing Avast,install_avast"
-    "Updating Inventory,upadate_inventory"
+    "Updating Inventory,jamfrecon"
   )
 
 #########################################################################################
